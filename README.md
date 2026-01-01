@@ -1,11 +1,11 @@
 # _Encyclo-K_: Dynamic Evaluation of LLMs' Comprehensive Understanding over Multiple Knowledge Statements
 
 <p align="center">
-  🌐 <a href="#">Homepage</a> |
-  🤗 <a href="#">Dataset</a> |
-  📖 <a href="#">ArXiv</a> |
-  🏆 <a href="#">Leaderboard</a> |
-  🐙 <a href="#">GitHub</a>
+  🌐 <a href="https://encyclo-k.github.io/">Homepage</a> |
+  🤗 <a href="https://huggingface.co/datasets/m-a-p/Encyclo-K">Dataset</a> |
+  📖 <a href="https://arxiv.org/abs/2512.24867">ArXiv</a> |
+  🏆 <a href="https://encyclo-k.github.io/#:~:text=isolated%20factual%20recall.-,Leaderboard,-We%20evaluate%2050">Leaderboard</a> |
+  <img src="https://github.githubassets.com/favicons/favicon.svg" width="15" height="15" style="filter: invert(1); vertical-align: -2px;"> <a href="https://github.com/multimodal-art-projection/Encyclo-K">GitHub</a>
 </p>
 
 This repository contains the evaluation code for the paper "_Encyclo-K_: Dynamic Evaluation of LLMs' Comprehensive Understanding over Multiple Knowledge Statements".
@@ -155,21 +155,21 @@ We evaluate 50+ LLMs on Encyclo-K. The benchmark poses substantial challenges wi
 | Chat | Qwen3-235B-A22B-Instruct | 50.40% | 9.71% – 50.40% |
 | Reasoning | OpenAI-GPT-5.1-high | 62.07% | 16.04% – 62.07% |
 
-👉 **For complete leaderboard and more model results, please visit our [Homepage](#).**
+👉 **For complete leaderboard and more model results, please visit our [Homepage](https://encyclo-k.github.io/#:~:text=isolated%20factual%20recall.-,Leaderboard,-We%20evaluate%2050).**
+
+## 🛠️ Dataset Maintenance
+Despite multiple rounds of manual review, there may still be a small number of errors in the dataset. If you find any, please paste the question_id and statement index to the [Issues](https://github.com/multimodal-art-projection/Encyclo-K/issues) page, and we will make the corresponding corrections. Our team is committed to long-term maintenance of this dataset to ensure its quality!
 
 ## 📚 Citation
 
 If you find Encyclo-K useful in your research, please cite our paper:
 
 ```bibtex
-@misc{encyclo-k2025,
-    title={Encyclo-K: Dynamic Evaluation of LLMs' Comprehensive Understanding over Multiple Knowledge Statements},
-    author={Yiming Liang and Yizhi Li and Ge Zhang and Yuchen Wu and Yinzhu Piao and Denghui Cao and Tong Sun and Ziniu Li and Li Du and Bo Lei and Jiaheng Liu and Chenghua Lin and Zhaoxiang Zhang and Yantao Du and Wenhao Huang and Jiajun Zhang},
-    year={2025},
-    eprint={},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL},
-    url={}, 
+@article{liang2025encyclo0k0,
+  title   = {Encyclo-K: Evaluating LLMs with Dynamically Composed Knowledge Statements},
+  author  = {Yiming Liang and Yizhi Li and Yantao Du and Ge Zhang and Jiayi Zhou and Yuchen Wu and Yinzhu Piao and Denghui Cao and Tong Sun and Ziniu Li and Li Du and Bo Lei and Jiaheng Liu and Chenghua Lin and Zhaoxiang Zhang and Wenhao Huang and Jiajun Zhang},
+  year    = {2025},
+  journal = {arXiv preprint arXiv: 2512.24867}
 }
 ```
 

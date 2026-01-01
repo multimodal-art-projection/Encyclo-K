@@ -5,7 +5,7 @@
   🤗 <a href="https://huggingface.co/datasets/m-a-p/Encyclo-K">Dataset</a> |
   📖 <a href="https://arxiv.org/abs/2512.24867">ArXiv</a> |
   🏆 <a href="https://encyclo-k.github.io/#:~:text=isolated%20factual%20recall.-,Leaderboard,-We%20evaluate%2050">Leaderboard</a> |
-  <img src="https://github.githubassets.com/favicons/favicon.svg" width="15" height="15" style="filter: invert(1); vertical-align: -2px;"> <a href="https://github.com/multimodal-art-projection/Encyclo-K">GitHub</a>
+  🐱 <a href="https://github.com/multimodal-art-projection/Encyclo-K">GitHub</a>
 </p>
 
 This repository contains the evaluation code for the paper "_Encyclo-K_: Dynamic Evaluation of LLMs' Comprehensive Understanding over Multiple Knowledge Statements".

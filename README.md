@@ -4,11 +4,10 @@
   🌐 <a href="https://encyclo-k.github.io/">Homepage</a> |
   🤗 <a href="https://huggingface.co/datasets/m-a-p/Encyclo-K">Dataset</a> |
   📖 <a href="https://arxiv.org/abs/2512.24867">ArXiv</a> |
-  🏆 <a href="https://encyclo-k.github.io/#:~:text=isolated%20factual%20recall.-,Leaderboard,-We%20evaluate%2050">Leaderboard</a> |
-  🐱 <a href="https://github.com/multimodal-art-projection/Encyclo-K">GitHub</a>
+  🏆 <a href="https://encyclo-k.github.io/#:~:text=isolated%20factual%20recall.-,Leaderboard,-We%20evaluate%2050">Leaderboard</a>
 </p>
 
-This repository contains the evaluation code for the paper "_Encyclo-K_: Dynamic Evaluation of LLMs' Comprehensive Understanding over Multiple Knowledge Statements".
+This repository contains the dataset and evaluation code for the paper "**_Encyclo-K_**: Evaluating LLMs with Dynamically Composed Knowledge Statements".
 
 ---
 
@@ -17,7 +16,9 @@ This repository contains the evaluation code for the paper "_Encyclo-K_: Dynamic
   <img src="images/pipeline.png" width="85%" alt="Encyclo-K Overview">
 </p>
 
-**_Encyclo-K_** is a statement-based benchmark that rethinks benchmark construction from the ground up. Our key observation is that the question itself need not be the atomic unit of curation—individual knowledge statements can be.
+Existing benchmarks curate evaluation data at the question level—collecting questions from textbooks or websites. This paradigm suffers from three key limitations: vulnerability to data contamination, restriction to single-concept assessment, and reliance on costly domain expert annotation. We introduce **_Encyclo-K_**, which rethinks benchmark construction from the ground up. <em>Our key insight is that knowledge statements, not questions, can serve as the unit of curation, and questions can then be constructed from them</em>.
+
+We compose statements into questions via random sampling, yielding two key properties: (1) Dynamic—the combinatorial space is too vast to memorize, with experiments across multiple random seeds confirming stable model rankings; (2) Multi-statement—each question requires joint comprehension of multiple statements, posing greater challenges than single-concept questions.
 
 ### Key Features
 

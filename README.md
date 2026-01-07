@@ -1,4 +1,4 @@
-# _Encyclo-K_: Dynamic Evaluation of LLMs' Comprehensive Understanding over Multiple Knowledge Statements
+# _Encyclo-K_: Evaluating LLMs with Dynamically Composed Knowledge Statements
 
 <p align="center">
   🌐 <a href="https://encyclo-k.github.io/">Homepage</a> |
